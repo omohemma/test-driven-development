@@ -4,12 +4,13 @@ namespace Tests\Feature;
 
 use App\User;
 use Tests\TestCase;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class ViewAnotherUsersTweetsTest extends TestCase
 {
 
     // Setup database migration
-    // use DatabaseMigrations;
+    use DatabaseMigrations;
 
     public function test_can_view_another_users_tweets()
     {
