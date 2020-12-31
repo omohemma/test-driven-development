@@ -14,7 +14,7 @@ class ViewAnotherUsersTweetsTest extends TestCase
 
     public function test_can_view_another_users_tweets()
     {
-        //A User must exist
+        //A User must exist - Passed
         $user = factory(User::class)->create([
             'username' => 'johndoe',
         ]);
